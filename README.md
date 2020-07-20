@@ -14,22 +14,27 @@ Active healing comes in many forms, from item pickups, to consumables, spells, a
 Each are slightly different, see below for details;
 
 ### `Energy Drink`
-
+An energy drink is a consumable item which gives a heal-over-time effect for a few seconds. The strength of the healing effect can be changed with the `consumable strength` buttons, which shows how many points of health are healed per second the effect is active. Drinking an energy drink extends the duration of any existing regeneration effect, like in battle royale games.
 
 ### `Painkillers`
+Painkillers are similar to energy drinks but take longer to apply, and their effect lasts longer. The strength of the regeneration effect applied by painkillers is the same as energy drinks, but since they last longer their overall heal is greater.
 
+The healing effect given by both energy drinks and painkillers doesn't end if the player reaches full health. If they take damage after using either of them, any remaining effect will be applied.
 
 ### `Bandage`
-
+A bandage is a consumable which heals a small amount of health instantly following a short delay. It cannot heal the player over maximum health, and will not affect any damage taken after the bandage has been applied (unlike the over-time regen provided by energy drinks and painkillers).
 
 ### `Medkit`
-
+A medkit is a consumable which heals the player to full health instantly following a long delay. Like the bandage, it can't heal the player over maximum health.
 
 ### `Flash Heal`
-
+The flash heal is like a bandage but takes no time to heal (like an instant cast spell). 
 
 ### `Lay On Hands`
+The lay on hands is like a medkit but takes no time to heal. It's useful for resetting the player's health to test the strength of the damage over time effect in the damage section.
 
+## `Damaging the Player`
+This project is all about healing, but to make that possible we need a way to damage the player. The `punch` and `whack` buttons do a small amount of damage, or bring the player to 5 health respectively. Below these two instant damage buttons, the damage over time slider lets you set a constant damage effect, which will be applied every game tick and whose value represents the damage taken by the player per second.
 
 
 ## `User Interface`
