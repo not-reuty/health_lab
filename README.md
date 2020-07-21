@@ -62,7 +62,8 @@ The project structure is fairly flat, with a single player node plus a `CanvasLa
 ### `Other Interesting Bits`
 Although this project is all about healing mechanics, there are some other cool bits to point out;
 - the consumable strength UI is custom coded because I couldn't find any +- buttons built in
-- 
+- this project follows on from my previous [damage lab](https://github.com/not-reuty/damage_lab) project
+- the `lay on hands` name comes from a [WoW Paladin Spell](https://classic.wowhead.com/spell=633/lay-on-hands)
 
 ## `Want to know more?`
 I'd like to help - tweet me [@not_reuty](https://twitter.com/not_reuty) any questions you have about this project and I'll do my best to answer them. Good Luck!
