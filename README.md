@@ -2,7 +2,7 @@
 
 ![](gifs/all.gif)
 
-This project provides some code for learning and testing healing mechanics found across many types of game. The project includes a few different types of health display, like the MMO type profile in the top right, an ARPG 'health bowl' in the bottom left, a heart type system in the center at the bottom, and a standard no-frills health bar in the center.
+This project provides some code for learning and testing healing mechanics found across many types of game. The project also includes a few different types of health display, like the MMO type profile in the top right, an ARPG 'health bowl' in the bottom left, a heart type system in the center at the bottom, and a standard no-frills health bar in the center.
 
 This project is designed to help you learn how these types of mechanisms can be implemented in games, and particularly how to do it using the Godot engine. Feel free to use this code anywhere you like, crediting [@not_reuty](https://twitter.com/not_reuty) is not required but greatly appreciated!
 
@@ -50,16 +50,19 @@ This project is all about healing, but to make that possible we need a way to da
 
 
 ## `User Interface`
+The UI links into the player's code through the `pressed()` and `value_changed()` events, which then set boolean values in the player directly. In an actual game this could be called from an inventory manager or similar if the player had the right healing items in their bags.
 
-![](gifs/user_interface.png)
+![](gifs/ui.png)
 
 ## `Project Structure`
+The project structure is fairly flat, with a single player node plus a `CanvasLayer` which holds all of the UI elements. One non-intuitive part is that the consumable indicators are children of the player node, *not* the UI canvas. This is so that if the player moves, the indicators will follow if the camera stays where it is. Feel free to change/adapt this as needed in your projects!
 
-![](gifs/structure.PNG)
+![](gifs/structure.png)
 
 ### `Other Interesting Bits`
 Although this project is all about healing mechanics, there are some other cool bits to point out;
-- something interesting
+- the consumable strength UI is custom coded because I couldn't find any +- buttons built in
+- 
 
 ## `Want to know more?`
 I'd like to help - tweet me [@not_reuty](https://twitter.com/not_reuty) any questions you have about this project and I'll do my best to answer them. Good Luck!
