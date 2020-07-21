@@ -150,7 +150,7 @@ use_filter = true
 extra_spacing_char = 1
 font_data = SubResource( 7 )
 
-[sub_resource type="DynamicFont" id=25]
+[sub_resource type="DynamicFont" id=17]
 size = 9
 outline_size = 2
 outline_color = Color( 0, 0, 0, 1 )
@@ -158,18 +158,18 @@ use_filter = true
 extra_spacing_char = 1
 font_data = SubResource( 7 )
 
-[sub_resource type="StyleBoxEmpty" id=26]
+[sub_resource type="StyleBoxEmpty" id=18]
 
-[sub_resource type="DynamicFontData" id=27]
+[sub_resource type="DynamicFontData" id=19]
 font_path = "res://KOMTITP_.ttf"
 
-[sub_resource type="DynamicFont" id=28]
+[sub_resource type="DynamicFont" id=20]
 size = 10
 outline_size = 1
 outline_color = Color( 0, 0, 0, 1 )
-font_data = SubResource( 27 )
+font_data = SubResource( 19 )
 
-[sub_resource type="StyleBoxFlat" id=17]
+[sub_resource type="StyleBoxFlat" id=21]
 draw_center = false
 border_width_left = 2
 border_width_top = 2
@@ -181,20 +181,20 @@ corner_radius_top_right = 10
 corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
-[sub_resource type="StyleBoxEmpty" id=18]
+[sub_resource type="StyleBoxEmpty" id=22]
 
-[sub_resource type="Theme" id=19]
+[sub_resource type="Theme" id=23]
 
-[sub_resource type="StyleBoxTexture" id=20]
+[sub_resource type="StyleBoxTexture" id=24]
 texture = ExtResource( 2 )
 region_rect = Rect2( 0, 0, 128, 128 )
 
-[sub_resource type="StyleBoxEmpty" id=21]
+[sub_resource type="StyleBoxEmpty" id=25]
 
-[sub_resource type="StyleBoxFlat" id=22]
+[sub_resource type="StyleBoxFlat" id=26]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
 
-[sub_resource type="StyleBoxFlat" id=23]
+[sub_resource type="StyleBoxFlat" id=27]
 bg_color = Color( 0.6, 0.6, 0.6, 0 )
 border_width_left = 1
 border_width_top = 1
@@ -202,7 +202,7 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color( 0, 0, 0, 1 )
 
-[sub_resource type="DynamicFont" id=24]
+[sub_resource type="DynamicFont" id=28]
 size = 11
 outline_color = Color( 0, 0, 0, 1 )
 extra_spacing_char = 1
@@ -624,7 +624,7 @@ texture = ExtResource( 21 )
 margin_top = 374.0
 margin_right = 318.0
 margin_bottom = 390.0
-custom_fonts/font = SubResource( 25 )
+custom_fonts/font = SubResource( 17 )
 align = 2
 
 [node name="made_by_reuty" type="Button" parent="HUD/button_panel/VBoxContainer"]
@@ -635,10 +635,10 @@ margin_bottom = 419.0
 focus_mode = 0
 mouse_default_cursor_shape = 2
 size_flags_horizontal = 4
-custom_styles/hover = SubResource( 26 )
-custom_styles/pressed = SubResource( 26 )
-custom_styles/normal = SubResource( 26 )
-custom_fonts/font = SubResource( 28 )
+custom_styles/hover = SubResource( 18 )
+custom_styles/pressed = SubResource( 18 )
+custom_styles/normal = SubResource( 18 )
+custom_fonts/font = SubResource( 20 )
 enabled_focus_mode = 0
 text = "made by reuty"
 script = ExtResource( 13 )
@@ -653,7 +653,7 @@ margin_left = 72.0
 margin_top = -244.0
 margin_right = 624.0
 margin_bottom = 244.0
-custom_styles/panel = SubResource( 17 )
+custom_styles/panel = SubResource( 21 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -665,7 +665,7 @@ margin_left = 286.0
 margin_top = 57.0
 margin_right = 410.0
 margin_bottom = 69.0
-custom_styles/panel = SubResource( 18 )
+custom_styles/panel = SubResource( 22 )
 script = ExtResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -695,8 +695,8 @@ margin_left = 88.8655
 margin_top = 131.765
 margin_right = 184.866
 margin_bottom = 227.765
-theme = SubResource( 19 )
-custom_styles/panel = SubResource( 20 )
+theme = SubResource( 23 )
+custom_styles/panel = SubResource( 24 )
 script = ExtResource( 10 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -728,7 +728,7 @@ margin_left = 232.0
 margin_top = 185.286
 margin_right = 464.0
 margin_bottom = 233.286
-custom_styles/panel = SubResource( 21 )
+custom_styles/panel = SubResource( 25 )
 script = ExtResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -759,7 +759,7 @@ margin_bottom = 144.0
 rect_min_size = Vector2( 200, 0 )
 size_flags_horizontal = 3
 size_flags_vertical = 4
-custom_styles/panel = SubResource( 22 )
+custom_styles/panel = SubResource( 26 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -789,7 +789,7 @@ margin_bottom = 35.0
 rect_clip_content = true
 size_flags_horizontal = 3
 size_flags_vertical = 6
-custom_styles/panel = SubResource( 23 )
+custom_styles/panel = SubResource( 27 )
 script = ExtResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -826,7 +826,7 @@ margin_left = 222.967
 margin_top = 93.9419
 margin_right = 277.967
 margin_bottom = 111.942
-custom_fonts/font = SubResource( 24 )
+custom_fonts/font = SubResource( 28 )
 text = "100/100"
 align = 2
 script = ExtResource( 17 )
